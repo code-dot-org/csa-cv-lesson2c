@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "com.codedotorg.App",
+            "projectName": "csa-cv-lesson2c",
+            "preLaunchTask": "Run Unlock the App",
+            "args": []
+        }
+    ]
+}
