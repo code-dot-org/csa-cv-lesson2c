@@ -32,7 +32,7 @@ public class Unlock {
     private AppLogic logic;
 
     /**
-     * This class represents a GUI window for a guessing game. It contains a prompt label, a text
+     * This class represents a GUI window for the app. It contains a prompt label, a text
      * field for entering a passcode, and an instance of AppLogic class for game logic.
      * 
      * @param primaryStage The primary stage of the application.
@@ -41,7 +41,7 @@ public class Unlock {
      */
     public Unlock(Stage primaryStage, int width, int height) {
         this.window = primaryStage;
-        window.setTitle("Guessing Game");
+        window.setTitle("Unlock the App");
 
         this.width = width;
         this.height = height;
@@ -74,10 +74,10 @@ public class Unlock {
     }
 
     /**
-     * Creates the main scene for the guessing game.
+     * Creates the main scene for the app.
      * 
      * @param layout the layout of the scene
-     * @return the main scene for the guessing game
+     * @return the main scene for the app
      */
     public Scene createMainScene(VBox layout) {
         Scene tempScene = new Scene(layout, width, height);
